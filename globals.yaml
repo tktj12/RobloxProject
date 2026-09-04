@@ -1,0 +1,99 @@
+globals:
+  # --- properties ---
+  types.any:
+    property: read-only
+  types.unknown:
+    property: read-only
+  types.never:
+    property: read-only
+  types.boolean:
+    property: read-only
+  types.buffer:
+    property: read-only
+  types.number:
+    property: read-only
+  types.string:
+    property: read-only
+  types.thread:
+    property: read-only
+
+  # --- functions ---
+  types.singleton:
+    args:
+      - type: any
+    must_use: true
+
+  types.negationof:
+    args:
+      - type:
+          display: type
+    must_use: true
+
+  types.optional:
+    args:
+      - type:
+          display: type
+    must_use: true
+
+  types.unionof:
+    args:
+      - type:
+          display: type
+      - type:
+          display: type
+      - type: "..."
+        required: false
+    must_use: true
+
+  types.intersectionof:
+    args:
+      - type:
+          display: type
+      - type:
+          display: type
+      - type: "..."
+        required: false
+    must_use: true
+
+  types.newtable:
+    args:
+      - type: table
+        required: false
+      - type: table
+        required: false
+      - type:
+          display: type
+        required: false
+    must_use: true
+
+  types.newfunction:
+    args:
+      - type: table
+      - type: table
+        required: false
+      - type: table
+        required: false
+    must_use: true
+
+  types.copy:
+    args:
+      - type:
+          display: type
+    must_use: true
+
+  types.generic:
+    args:
+      - type: string
+        required: false
+      - type: bool
+        required: false
+    must_use: true
+
+  # --- 타입 함수 안에서만 보이는 제네릭 타입 별칭 ---
+  # 스코프의 제네릭 별칭은 타입 함수 환경에서 함수로 노출된다. selene은 이를 모르므로 여기 등록한다.
+  FusionValue:
+    args:
+      - type:
+          display: type
+    must_use: true
+    

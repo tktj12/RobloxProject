@@ -1,0 +1,3 @@
+std = "roblox+globals"
+
+exclude = ["**/Test.luau"]

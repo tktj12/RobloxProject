@@ -1,0 +1,1246 @@
+{
+  "name": "Lobby",
+  "className": "DataModel",
+  "filePaths": [
+    "default.project.json"
+  ],
+  "children": [
+    {
+      "name": "ReplicatedStorage",
+      "className": "ReplicatedStorage",
+      "children": [
+        {
+          "name": "Modules",
+          "className": "Folder",
+          "pluginManaged": true,
+          "children": [
+            {
+              "name": "Shared",
+              "className": "Folder",
+              "pluginManaged": true,
+              "children": [
+                {
+                  "name": "Error",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Error.luau"
+                  ]
+                },
+                {
+                  "name": "Util",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Util.luau"
+                  ]
+                },
+                {
+                  "name": "WaveLevel",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/WaveLevel.luau"
+                  ]
+                },
+                {
+                  "name": "Bitset",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Bitset.luau"
+                  ]
+                },
+                {
+                  "name": "ArrowInfo",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/ArrowInfo.luau"
+                  ]
+                },
+                {
+                  "name": "LEnum",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/LEnum.luau"
+                  ]
+                },
+                {
+                  "name": "HitInfo",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/HitInfo.luau"
+                  ]
+                },
+                {
+                  "name": "Party",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Party.luau"
+                  ]
+                },
+                {
+                  "name": "Enemy",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Enemy/init.luau"
+                  ],
+                  "children": [
+                    {
+                      "name": "Stat",
+                      "className": "ModuleScript",
+                      "pluginManaged": true,
+                      "filePaths": [
+                        "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Enemy/Stat.luau"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Fusion",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/init.luau"
+                  ],
+                  "children": [
+                    {
+                      "name": "Animation",
+                      "className": "Folder",
+                      "pluginManaged": true,
+                      "children": [
+                        {
+                          "name": "ExternalTime",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Animation/ExternalTime.luau"
+                          ]
+                        },
+                        {
+                          "name": "Spring",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Animation/Spring.luau"
+                          ]
+                        },
+                        {
+                          "name": "Stopwatch",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Animation/Stopwatch.luau"
+                          ]
+                        },
+                        {
+                          "name": "Tween",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Animation/Tween.luau"
+                          ]
+                        },
+                        {
+                          "name": "getTweenDuration",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Animation/getTweenDuration.luau"
+                          ]
+                        },
+                        {
+                          "name": "getTweenRatio",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Animation/getTweenRatio.luau"
+                          ]
+                        },
+                        {
+                          "name": "lerpType",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Animation/lerpType.luau"
+                          ]
+                        },
+                        {
+                          "name": "packType",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Animation/packType.luau"
+                          ]
+                        },
+                        {
+                          "name": "springCoefficients",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Animation/springCoefficients.luau"
+                          ]
+                        },
+                        {
+                          "name": "unpackType",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Animation/unpackType.luau"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Colour",
+                      "className": "Folder",
+                      "pluginManaged": true,
+                      "children": [
+                        {
+                          "name": "Oklab",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Colour/Oklab.luau"
+                          ]
+                        },
+                        {
+                          "name": "sRGB",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Colour/sRGB.luau"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "External",
+                      "className": "ModuleScript",
+                      "pluginManaged": true,
+                      "filePaths": [
+                        "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/External.luau"
+                      ]
+                    },
+                    {
+                      "name": "ExternalDebug",
+                      "className": "ModuleScript",
+                      "pluginManaged": true,
+                      "filePaths": [
+                        "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/ExternalDebug.luau"
+                      ]
+                    },
+                    {
+                      "name": "Graph",
+                      "className": "Folder",
+                      "pluginManaged": true,
+                      "children": [
+                        {
+                          "name": "Observer",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Graph/Observer.luau"
+                          ]
+                        },
+                        {
+                          "name": "castToGraph",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Graph/castToGraph.luau"
+                          ]
+                        },
+                        {
+                          "name": "change",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Graph/change.luau"
+                          ]
+                        },
+                        {
+                          "name": "depend",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Graph/depend.luau"
+                          ]
+                        },
+                        {
+                          "name": "evaluate",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Graph/evaluate.luau"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Instances",
+                      "className": "Folder",
+                      "pluginManaged": true,
+                      "children": [
+                        {
+                          "name": "Attribute",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Instances/Attribute.luau"
+                          ]
+                        },
+                        {
+                          "name": "AttributeChange",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Instances/AttributeChange.luau"
+                          ]
+                        },
+                        {
+                          "name": "AttributeOut",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Instances/AttributeOut.luau"
+                          ]
+                        },
+                        {
+                          "name": "Child",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Instances/Child.luau"
+                          ]
+                        },
+                        {
+                          "name": "Children",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Instances/Children.luau"
+                          ]
+                        },
+                        {
+                          "name": "Hydrate",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Instances/Hydrate.luau"
+                          ]
+                        },
+                        {
+                          "name": "New",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Instances/New.luau"
+                          ]
+                        },
+                        {
+                          "name": "OnChange",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Instances/OnChange.luau"
+                          ]
+                        },
+                        {
+                          "name": "OnEvent",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Instances/OnEvent.luau"
+                          ]
+                        },
+                        {
+                          "name": "Out",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Instances/Out.luau"
+                          ]
+                        },
+                        {
+                          "name": "applyInstanceProps",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Instances/applyInstanceProps.luau"
+                          ]
+                        },
+                        {
+                          "name": "defaultProps",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Instances/defaultProps.luau"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Logging",
+                      "className": "Folder",
+                      "pluginManaged": true,
+                      "children": [
+                        {
+                          "name": "formatError",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Logging/formatError.luau"
+                          ]
+                        },
+                        {
+                          "name": "messages",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Logging/messages.luau"
+                          ]
+                        },
+                        {
+                          "name": "parseError",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Logging/parseError.luau"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Memory",
+                      "className": "Folder",
+                      "pluginManaged": true,
+                      "children": [
+                        {
+                          "name": "checkLifetime",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Memory/checkLifetime.luau"
+                          ]
+                        },
+                        {
+                          "name": "deriveScope",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Memory/deriveScope.luau"
+                          ]
+                        },
+                        {
+                          "name": "deriveScopeImpl",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Memory/deriveScopeImpl.luau"
+                          ]
+                        },
+                        {
+                          "name": "doCleanup",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Memory/doCleanup.luau"
+                          ]
+                        },
+                        {
+                          "name": "innerScope",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Memory/innerScope.luau"
+                          ]
+                        },
+                        {
+                          "name": "legacyCleanup",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Memory/legacyCleanup.luau"
+                          ]
+                        },
+                        {
+                          "name": "needsDestruction",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Memory/needsDestruction.luau"
+                          ]
+                        },
+                        {
+                          "name": "poisonScope",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Memory/poisonScope.luau"
+                          ]
+                        },
+                        {
+                          "name": "scopePool",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Memory/scopePool.luau"
+                          ]
+                        },
+                        {
+                          "name": "scoped",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Memory/scoped.luau"
+                          ]
+                        },
+                        {
+                          "name": "whichLivesLonger",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Memory/whichLivesLonger.luau"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "RobloxExternal",
+                      "className": "ModuleScript",
+                      "pluginManaged": true,
+                      "filePaths": [
+                        "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/RobloxExternal.luau"
+                      ]
+                    },
+                    {
+                      "name": "State",
+                      "className": "Folder",
+                      "pluginManaged": true,
+                      "children": [
+                        {
+                          "name": "Computed",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/State/Computed.luau"
+                          ]
+                        },
+                        {
+                          "name": "For",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/State/For/init.luau"
+                          ],
+                          "children": [
+                            {
+                              "name": "Disassembly",
+                              "className": "ModuleScript",
+                              "pluginManaged": true,
+                              "filePaths": [
+                                "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/State/For/Disassembly.luau"
+                              ]
+                            },
+                            {
+                              "name": "ForTypes",
+                              "className": "ModuleScript",
+                              "pluginManaged": true,
+                              "filePaths": [
+                                "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/State/For/ForTypes.luau"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "ForKeys",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/State/ForKeys.luau"
+                          ]
+                        },
+                        {
+                          "name": "ForPairs",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/State/ForPairs.luau"
+                          ]
+                        },
+                        {
+                          "name": "ForValues",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/State/ForValues.luau"
+                          ]
+                        },
+                        {
+                          "name": "Value",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/State/Value.luau"
+                          ]
+                        },
+                        {
+                          "name": "castToState",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/State/castToState.luau"
+                          ]
+                        },
+                        {
+                          "name": "peek",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/State/peek.luau"
+                          ]
+                        },
+                        {
+                          "name": "updateAll",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/State/updateAll.luau"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Types",
+                      "className": "ModuleScript",
+                      "pluginManaged": true,
+                      "filePaths": [
+                        "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Types.luau"
+                      ]
+                    },
+                    {
+                      "name": "Utility",
+                      "className": "Folder",
+                      "pluginManaged": true,
+                      "children": [
+                        {
+                          "name": "Contextual",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Utility/Contextual.luau"
+                          ]
+                        },
+                        {
+                          "name": "Safe",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Utility/Safe.luau"
+                          ]
+                        },
+                        {
+                          "name": "isSimilar",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Utility/isSimilar.luau"
+                          ]
+                        },
+                        {
+                          "name": "merge",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Utility/merge.luau"
+                          ]
+                        },
+                        {
+                          "name": "nameOf",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Utility/nameOf.luau"
+                          ]
+                        },
+                        {
+                          "name": "never",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Utility/never.luau"
+                          ]
+                        },
+                        {
+                          "name": "nicknames",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Utility/nicknames.luau"
+                          ]
+                        },
+                        {
+                          "name": "xtypeof",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Fusion/Utility/xtypeof.luau"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "SkillTree",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/SkillTree/init.luau"
+                  ],
+                  "children": [
+                    {
+                      "name": "Signal",
+                      "className": "ModuleScript",
+                      "pluginManaged": true,
+                      "filePaths": [
+                        "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/SkillTree/Signal.luau"
+                      ]
+                    },
+                    {
+                      "name": "Types",
+                      "className": "ModuleScript",
+                      "pluginManaged": true,
+                      "filePaths": [
+                        "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/SkillTree/Types.luau"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Skill",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Skill.luau"
+                  ]
+                },
+                {
+                  "name": "GameState",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/GameState.luau"
+                  ]
+                },
+                {
+                  "name": "PlayerData",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/PlayerData.luau"
+                  ]
+                },
+                {
+                  "name": "Types",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Types.luau"
+                  ]
+                },
+                {
+                  "name": "SharedData",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/SharedData.luau"
+                  ]
+                },
+                {
+                  "name": "Signal",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Shared/Signal.luau"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Client",
+              "className": "Folder",
+              "pluginManaged": true,
+              "children": [
+                {
+                  "name": "GuiService",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Client/GuiService.luau"
+                  ]
+                },
+                {
+                  "name": "View",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Client/View.luau"
+                  ]
+                },
+                {
+                  "name": "ViewModel",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Client/ViewModel.luau"
+                  ]
+                },
+                {
+                  "name": "Menu",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Client/Menu.luau"
+                  ]
+                },
+                {
+                  "name": "PartyInfo",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Client/PartyInfo.luau"
+                  ]
+                },
+                {
+                  "name": "WavePage",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Client/WavePage.luau"
+                  ]
+                },
+                {
+                  "name": "Bow",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Client/Bow.luau"
+                  ]
+                },
+                {
+                  "name": "PlayerAction",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Client/PlayerAction.luau"
+                  ]
+                },
+                {
+                  "name": "VfxManager",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Client/VfxManager.luau"
+                  ]
+                },
+                {
+                  "name": "SoundManager",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Client/SoundManager.luau"
+                  ]
+                },
+                {
+                  "name": "ArrowService",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Client/ArrowService.luau"
+                  ]
+                },
+                {
+                  "name": "Party",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Client/Party.luau"
+                  ]
+                },
+                {
+                  "name": "Enemy",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Client/Enemy.luau"
+                  ]
+                },
+                {
+                  "name": "SkillTree",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Client/SkillTree.luau"
+                  ]
+                },
+                {
+                  "name": "SkillPage",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Client/SkillPage/init.luau"
+                  ],
+                  "children": [
+                    {
+                      "name": "TooltipComponent",
+                      "className": "ModuleScript",
+                      "pluginManaged": true,
+                      "filePaths": [
+                        "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Client/SkillPage/TooltipComponent.luau"
+                      ]
+                    },
+                    {
+                      "name": "SkillDetailPanel",
+                      "className": "ModuleScript",
+                      "pluginManaged": true,
+                      "filePaths": [
+                        "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Client/SkillPage/SkillDetailPanel.luau"
+                      ]
+                    },
+                    {
+                      "name": "RadialCategoryPanel",
+                      "className": "ModuleScript",
+                      "pluginManaged": true,
+                      "filePaths": [
+                        "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Client/SkillPage/RadialCategoryPanel.luau"
+                      ]
+                    },
+                    {
+                      "name": "NodeComponent",
+                      "className": "ModuleScript",
+                      "pluginManaged": true,
+                      "filePaths": [
+                        "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Client/SkillPage/NodeComponent.luau"
+                      ]
+                    },
+                    {
+                      "name": "HUDComponent",
+                      "className": "ModuleScript",
+                      "pluginManaged": true,
+                      "filePaths": [
+                        "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Client/SkillPage/HUDComponent.luau"
+                      ]
+                    },
+                    {
+                      "name": "ExampleConfig",
+                      "className": "ModuleScript",
+                      "pluginManaged": true,
+                      "filePaths": [
+                        "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Client/SkillPage/ExampleConfig.luau"
+                      ]
+                    },
+                    {
+                      "name": "ConnectionLine",
+                      "className": "ModuleScript",
+                      "pluginManaged": true,
+                      "filePaths": [
+                        "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Client/SkillPage/ConnectionLine.luau"
+                      ]
+                    },
+                    {
+                      "name": "BranchCanvas",
+                      "className": "ModuleScript",
+                      "pluginManaged": true,
+                      "filePaths": [
+                        "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Client/SkillPage/BranchCanvas.luau"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "LocalData",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Client/LocalData.luau"
+                  ]
+                },
+                {
+                  "name": "AnimManager",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/Client/AnimManager.luau"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ServerScriptService",
+      "className": "ServerScriptService",
+      "children": [
+        {
+          "name": "ServerScripts",
+          "className": "Folder",
+          "pluginManaged": true,
+          "children": [
+            {
+              "name": "StudioScript",
+              "className": "Script",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/CastleGate/ServerScripts/StudioScript.legacy.luau"
+              ]
+            },
+            {
+              "name": "InitServer",
+              "className": "Script",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/CastleGate/ServerScripts/InitServer.legacy.luau"
+              ]
+            },
+            {
+              "name": "ServerEventHandling",
+              "className": "Script",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/CastleGate/ServerScripts/ServerEventHandling.legacy.luau"
+              ]
+            },
+            {
+              "name": "Test",
+              "className": "Script",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/CastleGate/ServerScripts/Test.legacy.luau"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ServerModules",
+          "className": "Folder",
+          "pluginManaged": true,
+          "children": [
+            {
+              "name": "ProfileStore",
+              "className": "ModuleScript",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/ServerModules/ProfileStore.luau"
+              ]
+            },
+            {
+              "name": "TokenBucket",
+              "className": "ModuleScript",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/ServerModules/TokenBucket.luau"
+              ]
+            },
+            {
+              "name": "Wave",
+              "className": "ModuleScript",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/ServerModules/Wave.luau"
+              ]
+            },
+            {
+              "name": "Wall",
+              "className": "ModuleScript",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/ServerModules/Wall.luau"
+              ]
+            },
+            {
+              "name": "Party",
+              "className": "ModuleScript",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/ServerModules/Party.luau"
+              ]
+            },
+            {
+              "name": "Enemy",
+              "className": "ModuleScript",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/ServerModules/Enemy.luau"
+              ]
+            },
+            {
+              "name": "WaveLevel",
+              "className": "ModuleScript",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/ServerModules/WaveLevel.luau"
+              ]
+            },
+            {
+              "name": "SkillTree",
+              "className": "ModuleScript",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/ServerModules/SkillTree/init.luau"
+              ],
+              "children": [
+                {
+                  "name": "Store",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/ServerModules/SkillTree/Store.luau"
+                  ]
+                },
+                {
+                  "name": "Validator",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/ServerModules/SkillTree/Validator.luau"
+                  ]
+                },
+                {
+                  "name": "Network",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/ServerModules/SkillTree/Network.luau"
+                  ]
+                },
+                {
+                  "name": "EffectHandler",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/ServerModules/SkillTree/EffectHandler.luau"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ServerData",
+              "className": "ModuleScript",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/ServerModules/ServerData.luau"
+              ]
+            },
+            {
+              "name": "Util",
+              "className": "ModuleScript",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/ServerModules/Util.luau"
+              ]
+            },
+            {
+              "name": "GameState",
+              "className": "ModuleScript",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/ServerModules/GameState.luau"
+              ]
+            },
+            {
+              "name": "PlayerData",
+              "className": "ModuleScript",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/ServerModules/PlayerData.luau"
+              ]
+            },
+            {
+              "name": "Profiles",
+              "className": "ModuleScript",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/ServerModules/Profiles.luau"
+              ]
+            },
+            {
+              "name": "Limits",
+              "className": "ModuleScript",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/ServerModules/Limits.luau"
+              ]
+            },
+            {
+              "name": "ArrowTokenBucket",
+              "className": "ModuleScript",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/Modules/ServerModules/ArrowTokenBucket.luau"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StarterPlayer",
+      "className": "StarterPlayer",
+      "children": [
+        {
+          "name": "StarterCharacterScripts",
+          "className": "StarterCharacterScripts",
+          "children": [
+            {
+              "name": "StarterCharacter",
+              "className": "LocalScript",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/CastleGate/StarterCharacterScripts/StarterCharacter.local.luau"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "StarterPlayerScripts",
+          "className": "StarterPlayerScripts",
+          "children": [
+            {
+              "name": "ClientEventHandling",
+              "className": "LocalScript",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/CastleGate/StarterPlayerScripts/ClientEventHandling.local.luau"
+              ]
+            },
+            {
+              "name": "InitClient",
+              "className": "LocalScript",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/CastleGate/StarterPlayerScripts/InitClient.local.luau"
+              ]
+            },
+            {
+              "name": "Test",
+              "className": "LocalScript",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Users/123au/Desktop/work/Roblox/LegendaryArcher/src/CastleGate/StarterPlayerScripts/Test.local.luau"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
